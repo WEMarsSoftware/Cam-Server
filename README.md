@@ -35,3 +35,19 @@ $ pip install -r requirments.txt
 ```
 $ python server.py
 ```
+
+### Usage
+
+Example url:
+
+```
+localhost:5000/fps
+```
+
+| Endpoint    | Method |Params          |
+|-------------|--------|----------------|
+| /fps        | POST   | "fps":"30"		|
+| /motionJpeg | GET    |                |
+| /           |        | Test Page      |
+
+
