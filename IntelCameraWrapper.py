@@ -13,7 +13,7 @@ class Camera(object):
     	pipe = rs.pipeline()
       
     def startCam(self):
-    	pipeline.start()
+    	pipe.start()
 
     def get_frame(self):
     	frames = pipeline.wait_for_frames()
